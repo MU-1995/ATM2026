@@ -1,6 +1,7 @@
 package com.atm;
 
 import com.atm.account.IAccount;
+import com.atm.card.CardReader;
 import com.atm.card.ICard;
 import com.atm.card.ICardReader;
 import com.atm.dispenser.CashDispenser;
@@ -8,6 +9,7 @@ import com.atm.dispenser.ICashDispenser;
 import com.atm.security.ISecuritySystem;
 import com.atm.security.SecuritySystem;
 import com.atm.transaction.ITransactionProcessor;
+import com.atm.transaction.TransactionProcessor;
 
 import java.util.Scanner;
 
@@ -56,7 +58,7 @@ public class ATM {
                         System.out.println(MSG_INPUT_AMOUNT);
                         double amount = Double.parseDouble(scanner.next());
 
-                        transactionProcessor.processTransaction(account, amount);
+                        transactionProcessor.transaction(account, amount);
                         cashDispenser.dispenseCash(amount);
                     } else {
                         System.out.println(ERR_AUTHENTICATION);
