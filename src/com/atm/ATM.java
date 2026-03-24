@@ -2,7 +2,7 @@ package com.atm;
 
 import java.util.Scanner;
 
-public class Main {
+public class ATM {
     private static final String CMD_QUIT = "q";
 
     static void main() {
