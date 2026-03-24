@@ -4,5 +4,5 @@ package com.atm.security;
 // that the card pin matches the input pin code and authenticates a transaction.
 
 public interface ISecurityInterface {
-    boolean authenticate(int cardPincode, int inputPincode);
+    boolean authenticate(String cardPincode, String inputPincode);
 }
