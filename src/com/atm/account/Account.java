@@ -2,12 +2,12 @@ package com.atm.account;
 
 public class Account implements IAccount{
 
-    private ICustomer customer;
+    private ICustomer owner;
     private double balance;
 
 
-    public Account(ICustomer customer, double balance) {
-        this.customer = customer;
+    public Account(ICustomer owner, double balance) {
+        this.owner = owner;
         this.balance = balance;
     }
 
