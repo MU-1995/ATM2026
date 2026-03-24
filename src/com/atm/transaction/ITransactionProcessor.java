@@ -1,5 +1,7 @@
 package com.atm.transaction;
 
+import com.atm.account.IAccount;
+
 public interface ITransactionProcessor {
-    void transaction(Account account, double amount);
+    void transaction(IAccount account, double amount);
 }
