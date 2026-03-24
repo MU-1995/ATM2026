@@ -4,5 +4,5 @@ import javax.smartcardio.Card;
 
 public interface ICardReader {
 
-    void readCard(String input, Card card);
+    ICard readCardNumber(String cardNumber);
 }
