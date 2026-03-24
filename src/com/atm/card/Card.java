@@ -15,7 +15,7 @@ public class Card implements ICard {
     }
 
     @Override
-    public IAccount getAccont() {
+    public IAccount getAccount() {
         return account;
     }
 
