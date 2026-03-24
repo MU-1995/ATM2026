@@ -1,6 +1,6 @@
 package com.atm.customer;
 
-public class Customer {
+public class Customer implements ICustomer{
 
     private String name;
     private String surname;

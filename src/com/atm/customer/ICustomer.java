@@ -2,10 +2,10 @@ package com.atm.customer;
 
 public interface ICustomer {
 
-    public String getName();
-    public String getSurname();
+    String getName();
+    String getSurname();
 
-    public void setName(String name);
-    public void setSurname(String surname);
+    void setName(String name);
+    void setSurname(String surname);
 
 }
