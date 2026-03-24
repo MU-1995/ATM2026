@@ -1,5 +1,7 @@
 package com.atm.account;
 
+import com.atm.customer.ICustomer;
+
 public class Account implements IAccount{
 
     private ICustomer owner;
