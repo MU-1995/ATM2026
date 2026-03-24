@@ -4,7 +4,7 @@ out/
 !**/src/main/**/out/
 !**/src/test/**/out/
 .kotlin
-ATM2026.iml
+AML2026.iml
 
 ### Eclipse ###
 .apt_generated
