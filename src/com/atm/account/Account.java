@@ -23,7 +23,7 @@ public class Account implements IAccount{
 
     @Override
     public boolean withDraw(double amount) {
-        if(balance > 0 && balance > amount) {
+        if(balance >= 0 && balance > amount) {
             balance -= amount;
             System.out.println("Withdrawal of $" + amount + " succesful. Current balance: " + balance);
             return true;
